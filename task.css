@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   background-color:linear-gradient(to right, #fceabb, #f8b500);
+}
+
+header {
+    background-color: #4e342e;
+    padding: 10px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 12px;
+    font-size: 18px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 50px 10%;
+    text-align: left;
+    min-height: 38vh;
+}
+
+h2 {
+    font-size: 34px;
+    color: #4e342e;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+p, li {
+    line-height: 1.6;
+    font-size: 20px;
+    color: #333;
+    
+}
+
+ol {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4e342e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8d6e63;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, #4e342e, #8d6e63, #d7ccc8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.content-box h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+.content-box p {
+    font-size: 20px;
+}
+
+.learn-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.learn-btn:hover {
+    background-color: beige;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4e342e;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fceabb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+}
